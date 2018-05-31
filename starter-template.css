@@ -1,0 +1,93 @@
+html {
+    display: table;
+    margin:auto;
+}
+.outcontainer {
+    background-color: #ced4da;
+    padding-left: 0px;
+    padding-right:0px;
+    border-style: solid;
+    border-color:black;
+}
+.peterli {
+    padding-top: 0px;
+    padding-bottom:0px;
+    border-bottom-color: darkgrey;
+    border-style: solid;
+}
+.navbarfont {
+    font-size:1.5em;
+    color:white;
+    padding-left: 15px;
+    padding-right:15px;
+}
+.row1{
+    margin-bottom:15px;
+}
+.aboutme {
+    border-bottom-style:solid;
+    border-bottom-color:darkgrey;
+}
+
+p {
+    font-size: 1.4em;
+    line-height: 1.8;
+}
+
+img {
+    float: left;
+    margin-right: 25px;
+}
+.cardimg {
+    width:100%;
+}
+.overlaycontainer {
+    position: absolute;
+    top: 120px;
+    margin-bottom: 10px;
+    color: white;
+    padding-left: 0px;
+    padding-right:0px;
+    text-align: center;
+    background-color: lightseagreen;
+}
+.sheight {
+    height: 150px;
+}
+
+/* @media (max-width: 992px) { 
+    body {
+        padding-left:0px;
+        padding-right:0px;
+        width: 753px;
+        align-self: center;
+    }
+ } */
+@media (min-width: 992px) { 
+    body {
+        width: 960px;
+        align-self: center;
+    }
+    .inner-container {
+    border-style:solid;
+    border-color:grey;
+    background-color:white;
+    width: 650px;
+    margin-left: 15px;
+    margin-top:20px;
+    margin-bottom:100px;
+    padding-bottom: 10px;
+    }
+ }
+
+.seperator{
+    height: 5px;
+}
+footer {
+    /* display: table-cell;
+    width:100%; */
+    padding-top: 20px;
+    height: 60px;
+    background-color: #666666;
+    vertical-align: middle;
+}
